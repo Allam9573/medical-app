@@ -40,6 +40,9 @@ const LoginScreen = (props) => {
                 <TouchableOpacity onPress={() => goToPage('Unete a Medical App')}>
                     <Text>Atras</Text>
                 </TouchableOpacity>
+                <TouchableOpacity onPress={() => goToPage('Especialidades Medicas')}>
+                    <Text>Home</Text>
+                </TouchableOpacity>
             </View>
         </View>
     )
